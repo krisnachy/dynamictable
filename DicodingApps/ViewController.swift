@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         academyTableView.dataSource = self
+        academyTableView.delegate = self
+        
         academyTableView.register(
             UINib(nibName: "AcademyTableViewCell", bundle: nil), // Isi dengan nama file XIB
             forCellReuseIdentifier: "AcademyCell" // Isi dengan Identifier Cell yang telah ditentukan
@@ -41,4 +43,13 @@ extension ViewController : UITableViewDataSource {
     }
     
     
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(
+        _ tableView: UITableView,
+        didSelectRowAt indexPath: IndexPath
+    ) {
+        performSegue(withIdentifier: "moveToDetail", sender: nil)
+    }
 }

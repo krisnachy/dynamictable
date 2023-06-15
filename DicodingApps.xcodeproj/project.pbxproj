@@ -16,6 +16,7 @@
 		F217D08D2A3314070034E33F /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217D08C2A3314070034E33F /* AcademyModel.swift */; };
 		F217D0902A36F29E0034E33F /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217D08E2A36F29E0034E33F /* AcademyTableViewCell.swift */; };
 		F217D0912A36F29E0034E33F /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F217D08F2A36F29E0034E33F /* AcademyTableViewCell.xib */; };
+		F2551A822A3ACBFE001E7AF8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2551A812A3ACBFE001E7AF8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F217D08C2A3314070034E33F /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
 		F217D08E2A36F29E0034E33F /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
 		F217D08F2A36F29E0034E33F /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
+		F2551A812A3ACBFE001E7AF8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				F217D08C2A3314070034E33F /* AcademyModel.swift */,
 				F217D08E2A36F29E0034E33F /* AcademyTableViewCell.swift */,
 				F217D08F2A36F29E0034E33F /* AcademyTableViewCell.xib */,
+				F2551A812A3ACBFE001E7AF8 /* DetailViewController.swift */,
 			);
 			path = DicodingApps;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				F217D07D2A33125D0034E33F /* ViewController.swift in Sources */,
 				F217D0792A33125D0034E33F /* AppDelegate.swift in Sources */,
 				F217D08D2A3314070034E33F /* AcademyModel.swift in Sources */,
+				F2551A822A3ACBFE001E7AF8 /* DetailViewController.swift in Sources */,
 				F217D07B2A33125D0034E33F /* SceneDelegate.swift in Sources */,
 				F217D0902A36F29E0034E33F /* AcademyTableViewCell.swift in Sources */,
 			);
